@@ -245,7 +245,7 @@ poland_map <- ggplot(poland_temp_dates) +
         plot.subtitle = element_text(
             size = 40, color = "#c43c4e",
             hjust = .5, vjust = -1
-        )
+        ),
         panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
         plot.margin = unit(
